@@ -1,0 +1,18 @@
+
+body
+{
+	color: green;
+}
+
+h2.beta
+	{
+		color:orange;
+		font-style: italic;
+	}
+
+div.fun
+{
+	background-color: purple;
+	color:white;
+	padding: 15px;
+}

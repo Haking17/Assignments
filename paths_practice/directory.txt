@@ -1,0 +1,13 @@
+- paths_practice (root)
+  - about
+    - index.html
+  - contact
+    - index.html
+  - css
+    - base.css
+  - images
+    - background.jpg
+    - bear.gif
+    - fashion.png
+    - flushed-face.png
+  - index.html

@@ -1,0 +1,25 @@
+h1
+{
+background-color: red;
+padding: 50px;
+border: solid black 15px;
+}
+
+p
+{
+background-color: blue;
+color: white;
+padding: 20px;
+border: dashed black 10px;
+}
+
+code
+{
+	padding: 5px;
+	border: solid black 2px;
+}
+
+.content-wrapper
+{padding: 25px;
+border-sizing: border-box;
+width: 500;}

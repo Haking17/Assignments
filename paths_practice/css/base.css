@@ -1,0 +1,10 @@
+/* set the background image of the body (use background.jpg) */
+body {
+  color:#999;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
