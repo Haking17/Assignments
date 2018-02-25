@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body
+	{
+		text-align: center;
+		font-family: 'open sans';
+		margin: 0px;
+	}
+
+div.alpha
+	{
+		background-image: url('../images/header_bg.jpg');
+		display: block;
+		width: 100%;
+		height: 80%;
+		margin: 0px
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+h1
+{
+	padding-left: 70px;
+	padding-top: 20px;
+	font-size: 48px;
+	text-align: left;
+	color: white; 
+}
+h2
+{
+	color: white;
+	font-size: 48px;
+	padding-top: 20px;
+}
+
+a
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #f9e42e;
+	font-size: 28px;
+	font-weight: bold;
+	color: #033048;
+	border: 5px solid #f9e42e;
+	box-shadow: 10px;
+	text-decoration: none;
+	
+}
+
+a.link-2
+{
+	border: solid #121212 5px;	
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #121212;
+	color:white;
+	text-decoration: none;
+}
+
+.beta
+	{
+		text-align: left;
+		color: #121212;
+		font-size: 40px;
+		padding-left: 70px;
+		padding-right: 30px;
+		padding-bottom: 80px;
+		padding-top: 50px;
+	}
+
+p.one
+{
+	font-size: 26px;
+}
+ul
+{
+	font-size: 26px;
+}
+
+.gamma
+	{
+		color:white;
+		background-image: url('../images/testimonial_bg.jpg');
+		padding-left:10px;
+		padding-right: 10px;
+		padding-top: 40px;
+		padding-bottom: 50px;
+		font-size: 36px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+.delta
+	{
+		background-color: #f9e42e;
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+
+.epsilon
+	{
+		background-color: black;
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+h4
+	{
+		color: #f9e42e;
+		font-size: 18px;
+		font-weight: ;
+	}
+	.fb
+	{
+		padding-right: 10px;
+		border-color: black;
+		background-color: black;
+	}
+	.tweet
+	{
+		padding-left: 10px;
+	}
+
+p.three
+	{
+		color: white;
+	}
