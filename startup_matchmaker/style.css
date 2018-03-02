@@ -1,0 +1,53 @@
+@import url('link href="https://fonts.googleapis.com/css?family=Merriweather:700,700i|Oswald:700|Source+Sans+Pro:400,700" rel="stylesheet');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header
+	{
+		background-color: black;
+		border-bottom: solid 3px #fdf731;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+
+h1
+	{
+		color: #fdf731;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		display: inline-block;
+	}
+
+.clearfix::after 
+	{
+		  clear: both;
+		  content: "";
+		  display: block;
+		  height: 0;
+		  visibility: hidden;
+  	}
+
+nav
+	{
+		float: right;
+	}
+
+.nav1
+	{
+		color: white;
+		padding-top: 35px;
+	}
+
+.unboldnav
+	{
+		color: white;
+		padding-top: 50px;
+	}
+
+.beta
+	{
+		background-image: "/images/coworking.jpg";
+	}
