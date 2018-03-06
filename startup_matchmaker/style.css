@@ -11,23 +11,26 @@ header
 		border-bottom: solid 3px #fdf731;
 		padding-top: 0px;
 		margin-top: 0px;
+		color: white;
+		display: block;
+		text-decoration: none;
+		height: 65px;
+		width: 100%;
 	}
 
 h1
 	{
 		color: #fdf731;
-		padding-top: 70px;
-		padding-bottom: 70px;
 		display: inline-block;
 	}
 
 .clearfix::after 
 	{
-		  clear: both;
-		  content: "";
-		  display: block;
-		  height: 0;
-		  visibility: hidden;
+		clear: both;
+		content: "";
+		display: block;
+		height: 0;
+		visibility: hidden;
   	}
 
 nav
@@ -38,16 +41,104 @@ nav
 .nav1
 	{
 		color: white;
-		padding-top: 35px;
+		display: inline-block;	
+		padding-top: 10px;
+		padding-right: 20px;
+		font-size: 30px;
+		font-family: oswald:700;
+		font-style: bold;
+		text-decoration: none;
 	}
 
 .unboldnav
 	{
 		color: white;
 		padding-top: 50px;
+		padding-right: 40px;
+		text-decoration: none;
 	}
-
+.alpha
+	{
+		background-color: lightgrey;
+		text-align: center;
+		font-style: italic;
+		color: black;
+		display: block;
+		height: 50px;
+		width: 100%;
+		padding-top: 13px;
+	}
 .beta
 	{
-		background-image: "/images/coworking.jpg";
+		background-image: url("./images/coworking.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 450px;
+		padding-top: 50px;
+		padding-right: 35px;
+	}
+.div-1{
+	float: right;
+	width: 530px;
+	height: 350px;
+	padding: 65px;
+	background-color: rgba(192,192,192,1);
+	border:1px solid black;
+	opacity: 40%;
+}
+.div-1 button{
+	width: 440px;
+	height: 50px;
+	font-size: 26px;
+	padding: 12px 0px;
+	margin-top: 40px;
+	text-align: center;
+	box-shadow: black 10px;
+	background-color:#fdf731;
+	text-decoration-style: none;
+}
+.div-3{
+	width: 33%;
+	border-left: #ccc;
+	border-left-style: solid;
+	border-width: 1px;
+	display: inline-block;
+	padding: 45px;
+	margin: 15px 0px;
+}
+.div-3 button{
+	margin-top: 40px;
+	width: 350px;
+	height: 50px;
+	padding: 14px 0px;
+	font-size: 22px;
+	border-bottom-style: outset;
+	background-color: lightgrey;
+	text-decoration: none;
+}
+.span-a
+	{
+		text-decoration-color: lightgrey;
+		text-decoration: line-through;
+	}
+
+.span-b
+	{
+		text-decoration: underline;
+		text-decoration-color:	#fdf731;
+
+	}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	color: white;
+	padding-left: 30px;
+}
+
+.roger
+	{
+		font-size: 50px;
 	}
