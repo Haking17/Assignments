@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800');
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	font-family: sans-serif;
+
+}
+
+.nav
+	{
+		background-color: lightblue;
+		display: inline-block;
+		width: 100%;
+	}
+nav
+	{
+		font-family: sans-serif;
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+		left: 0;
+	}
+
+.navborder
+{
+	border-bottom: dashed gray 5px;
+	background: white;
+}
+
+nav h1{
+	display: inline-block;
+	width: 200px;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	display: inline-block;
+	margin: 2px 50px;
+	line-height: 100%;
+	vertical-align: middle;
+}
+
+.page
+	{
+		background-image: url('millennials-doing-good-hero.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		 background-size: 130%;
+	}
+
+h2
+	{
+		text-align: center;
+		font-family: sans-serif;
+		font-weight: 650;
+		font-size: 36px;
+	}
+
+#box
+	{
+		
+		padding-top: 50px;
+		padding-bottom:70px;
+		margin-top: 160px;
+		background-color: rgb(245, 250, 250, 0.85);
+		margin: 50px;
+}
+
+p
+	{
+		padding-right: 10%;
+		padding-left: 10%;
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 18px;
+	}
+
+span
+	{
+		padding: 10px;
+		font-weight: 650;
+		font-family: sans-serif;
+		font-style: small-caps italic;
+		text-align: center;
+		margin-left: 5%;
+		font-size: 20px;
+	}
+
+.button
+	{
+	 width: 300px;
+ 	 text-align: center;
+ 	 position: absolute;
+ 	 left: 39%;
+ 	 padding: 15px;
+ 	 background-color: lightblue;
+ 	 box-shadow: 10px darkgray;
+ 	 font-weight: 700;
+ 	 font-size: 20px;
+ 	 font-variant: small-caps;
+	 font-style: italic;
+	 margin-top: 25px;
+	}
+
+/*	footer
+	{
+		text-align: center;
+		font-family: sans-serif;
+		background-color: rgb(246, 250, 250);
+		height: 10px;
+		padding-top: 10px;
+		font-weight: bold;
+		font-style: italic;
+
+	}
+
+.contact
+	{
+		background-color: rgb(246, 250, 250);
+		margin-left: 50px;
+		margin-right: 50px;	
+		height: 40px;
+		padding-bottom: 30px;
+		margin:0px;
+	}
+
+.email
+	{
+		margin-right: 50%;
+		margin-left: 50%;
+	}

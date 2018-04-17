@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800');
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	font-family: sans-serif;
+
+}
+
+.nav
+	{
+		background-color: lightblue;
+		display: inline-block;
+		width: 100%;
+	}
+nav
+	{
+		font-family: sans-serif;
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+		left: 0;
+	}
+
+.navborder
+{
+	border-bottom: dashed gray 5px;
+	background: white;
+}
+
+nav h1{
+	display: inline-block;
+	width: 200px;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	display: inline-block;
+	margin: 2px 50px;
+	line-height: 100%;
+	vertical-align: middle;
+}
+
+body
+	{
+		background-image: url('background-coffee-cup-884454.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+	}
+
+	.under
+	{
+		padding-top: 50px;
+		padding-bottom:50px;
+		margin-top: 160px;
+		background-color: rgb(245, 250, 250, 0.9);
+		margin: 50px;
+		padding-right: 50px;
+		padding-left:50px;
+		font-family: sans-serif;
+		position: relative;
+	}
+
+h2
+	{
+		font-size: 36px;
+		font-weight: bold;
+	}
+
+span
+	{
+		font-size: 12px;
+	}
+
+		.button
+	{
+	 width: 300px;
+ 	 text-align: center;
+ 	 position: relative;
+ 	 left: 41%;
+ 	 padding: 15px;
+ 	 background-color: lightblue;
+ 	 box-shadow: 10px darkgray;
+ 	 font-weight: 700;
+ 	 font-size: 20px;
+ 	 font-variant: small-caps;
+	 font-style: italic;
+	 margin-top: 25px;
+	}
